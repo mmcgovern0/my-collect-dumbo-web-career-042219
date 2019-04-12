@@ -5,7 +5,3 @@ def my_collect(array)
     i = i + 1
   end
 end
-
-my_collect(array) do |name|
-  name.split(" ").first
-end
